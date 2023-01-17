@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "CompressedTowel",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_towel"
+    },
+    {
+      "name": "CompressedTowelGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_towel_geng_xin_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Water",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water"
+    },
+    {
+      "name": "SuperCompressedTowel",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_compressed_towel"
+    },
+    {
+      "name": "SuperCompressedTowelGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_compressed_towel_geng_xin_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiningCompressedTowel",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_compressed_towel"
+    },
+    {
+      "name": "MiningCompressedTowelGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_compressed_towel_geng_xin_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.biandabiangao.mining_compressed_towel": "Mining Compressed Towel",
+      "block.biandabiangao.compressed_towel": "Compressed Towel",
+      "block.biandabiangao.super_compressed_towel": "Super Compressed Towel"
+    },
+    "zh_cn": {
+      "block.biandabiangao.mining_compressed_towel": "采矿压缩毛巾",
+      "block.biandabiangao.compressed_towel": "压缩毛巾",
+      "block.biandabiangao.super_compressed_towel": "压缩毛巾(危险版)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "biandabiangao",
+    "modName": "biandabiangao",
+    "version": "1.0.0",
+    "author": "付邦坤, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.biandabiangao",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

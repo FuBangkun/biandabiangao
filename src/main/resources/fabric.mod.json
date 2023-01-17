@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "biandabiangao",
+  "version": "1.0.0",
+  "name": "biandabiangao",
+  "description": "遇水变答辩糕",
+  "authors": [
+    "FuBangkun"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.biandabiangao.BiandabiangaoMod"
+    ],
+    "client": [
+      "net.mcreator.biandabiangao.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  }
+}
